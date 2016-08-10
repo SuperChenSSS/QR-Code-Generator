@@ -1,0 +1,10 @@
+e:\qqpcmgr\documents\visual studio 2010\Projects\二维码\二维码\bin\Debug\二维码.exe
+e:\qqpcmgr\documents\visual studio 2010\Projects\二维码\二维码\bin\Debug\二维码.pdb
+e:\qqpcmgr\documents\visual studio 2010\Projects\二维码\二维码\bin\Debug\ThoughtWorks.QRCode.dll
+e:\qqpcmgr\documents\visual studio 2010\Projects\二维码\二维码\bin\Debug\ThoughtWorks.QRCode.pdb
+e:\qqpcmgr\documents\visual studio 2010\Projects\二维码\二维码\obj\x86\Debug\二维码.csprojResolveAssemblyReference.cache
+e:\qqpcmgr\documents\visual studio 2010\Projects\二维码\二维码\obj\x86\Debug\二维码.Form1.resources
+e:\qqpcmgr\documents\visual studio 2010\Projects\二维码\二维码\obj\x86\Debug\二维码.Properties.Resources.resources
+e:\qqpcmgr\documents\visual studio 2010\Projects\二维码\二维码\obj\x86\Debug\二维码.csproj.GenerateResource.Cache
+e:\qqpcmgr\documents\visual studio 2010\Projects\二维码\二维码\obj\x86\Debug\二维码.exe
+e:\qqpcmgr\documents\visual studio 2010\Projects\二维码\二维码\obj\x86\Debug\二维码.pdb
