@@ -149,5 +149,10 @@ namespace 二维码
             MessageBox.Show("打开程序，先选择模式；生成模式可以根据字符串生成二维码，识别模式可以根据系统的二维码解码为字符串。", "操作方法", MessageBoxButtons.OK,
                             MessageBoxIcon.Information);
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

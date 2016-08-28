@@ -50,6 +50,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.选择模式ToolStripMenuItem,
             this.帮助ToolStripMenuItem});
@@ -71,14 +72,14 @@
             // 生成模式ToolStripMenuItem
             // 
             this.生成模式ToolStripMenuItem.Name = "生成模式ToolStripMenuItem";
-            this.生成模式ToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
+            this.生成模式ToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
             this.生成模式ToolStripMenuItem.Text = "生成模式";
             this.生成模式ToolStripMenuItem.Click += new System.EventHandler(this.生成模式ToolStripMenuItem_Click);
             // 
             // 识别模式ToolStripMenuItem
             // 
             this.识别模式ToolStripMenuItem.Name = "识别模式ToolStripMenuItem";
-            this.识别模式ToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
+            this.识别模式ToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
             this.识别模式ToolStripMenuItem.Text = "识别模式";
             this.识别模式ToolStripMenuItem.Click += new System.EventHandler(this.识别模式ToolStripMenuItem_Click);
             // 
@@ -94,14 +95,14 @@
             // 操作方法ToolStripMenuItem
             // 
             this.操作方法ToolStripMenuItem.Name = "操作方法ToolStripMenuItem";
-            this.操作方法ToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+            this.操作方法ToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
             this.操作方法ToolStripMenuItem.Text = "操作方法";
             this.操作方法ToolStripMenuItem.Click += new System.EventHandler(this.操作方法ToolStripMenuItem_Click);
             // 
             // 关于ToolStripMenuItem
             // 
             this.关于ToolStripMenuItem.Name = "关于ToolStripMenuItem";
-            this.关于ToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
+            this.关于ToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
             this.关于ToolStripMenuItem.Text = "关于";
             this.关于ToolStripMenuItem.Click += new System.EventHandler(this.关于ToolStripMenuItem_Click);
             // 
@@ -135,31 +136,32 @@
             // 
             // contextMenuStrip1
             // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.二维码另存为ToolStripMenuItem,
             this.发送到手机ToolStripMenuItem,
             this.属性ToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(169, 76);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(175, 82);
             this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
             // 
             // 二维码另存为ToolStripMenuItem
             // 
             this.二维码另存为ToolStripMenuItem.Name = "二维码另存为ToolStripMenuItem";
-            this.二维码另存为ToolStripMenuItem.Size = new System.Drawing.Size(168, 24);
+            this.二维码另存为ToolStripMenuItem.Size = new System.Drawing.Size(174, 26);
             this.二维码另存为ToolStripMenuItem.Text = "二维码另存为";
             this.二维码另存为ToolStripMenuItem.Click += new System.EventHandler(this.二维码另存为ToolStripMenuItem_Click);
             // 
             // 发送到手机ToolStripMenuItem
             // 
             this.发送到手机ToolStripMenuItem.Name = "发送到手机ToolStripMenuItem";
-            this.发送到手机ToolStripMenuItem.Size = new System.Drawing.Size(168, 24);
+            this.发送到手机ToolStripMenuItem.Size = new System.Drawing.Size(174, 26);
             this.发送到手机ToolStripMenuItem.Text = "发送到手机";
             // 
             // 属性ToolStripMenuItem
             // 
             this.属性ToolStripMenuItem.Name = "属性ToolStripMenuItem";
-            this.属性ToolStripMenuItem.Size = new System.Drawing.Size(168, 24);
+            this.属性ToolStripMenuItem.Size = new System.Drawing.Size(174, 26);
             this.属性ToolStripMenuItem.Text = "属性";
             // 
             // Form1
@@ -177,6 +179,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "二维码生成/识别--陈梦杨实习";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
