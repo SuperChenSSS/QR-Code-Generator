@@ -2,7 +2,7 @@
 ****
 ###		Author:`SuperChen`
 ###	E-mail:`chenmengyang_2016@hotmail.com`
-##**Description:**
+## **Description:**
 ```
   This is for QR Code Generation!
   The programming language is C#.
